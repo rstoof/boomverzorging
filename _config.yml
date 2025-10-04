@@ -1,0 +1,35 @@
+# GitHub Pages and Jekyll configuration
+# Disable Jekyll processing since this is a static HTML site
+include:
+  - "_*"
+
+# Exclude files from the build
+exclude:
+  - "README.md"
+  - "LICENSE"
+  - "*.md"
+  - "node_modules"
+  - "package*.json"
+  - ".gitignore"
+  - ".github"
+
+# Gems
+plugins:
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+# Site settings (optional)
+title: "Boomverzorging - Professional Tree Care"
+description: "Professional tree care and arboriculture services"
+url: "http://boomverzorging.green"
+baseurl: ""
+
+# SEO settings
+author:
+  name: "Boomverzorging"
+  
+# Social profiles
+social:
+  name: "Boomverzorging"
+  links:
+    - http://boomverzorging.green
