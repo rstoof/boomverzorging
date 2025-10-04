@@ -1,6 +1,6 @@
-# Your Static Website
+# Groene Boomverzorging Website
 
-A modern, responsive static website converted from WordPress for free hosting.
+Een moderne, responsieve statische website voor boomverzorgingsdiensten, geconverteerd van WordPress naar gratis hosting.
 
 ## 🚀 Quick Start
 
@@ -11,16 +11,16 @@ A modern, responsive static website converted from WordPress for free hosting.
 ## 📁 Project Structure
 
 ```
-├── index.html          # Homepage
-├── about.html          # About page
-├── contact.html        # Contact page
+├── index.html          # Homepage (Groene Boomverzorging)
+├── diensten.html       # Services page (Boomverzorging diensten)
+├── about.html          # About page (Over Ons)
+├── contact.html        # Contact page (Contact)
 ├── css/
 │   └── styles.css      # Main stylesheet
 ├── js/
 │   └── main.js         # JavaScript functionality
-├── netlify.toml        # Netlify configuration
-├── vercel.json         # Vercel configuration
 ├── _config.yml         # GitHub Pages configuration
+├── CNAME               # Custom domain configuration
 └── README.md           # This file
 ```
 
@@ -33,41 +33,19 @@ A modern, responsive static website converted from WordPress for free hosting.
 - ✅ **Mobile Navigation** - Hamburger menu for mobile
 - ✅ **Cross-browser Compatible** - Works in all modern browsers
 
-## 🌐 Free Hosting Options
+## 🌐 Hosting on GitHub Pages
 
-### 1. Netlify (Recommended)
-- **URL**: [netlify.com](https://netlify.com)
-- **Features**: Drag & drop deployment, forms, functions
-- **Steps**:
-  1. Sign up at netlify.com
-  2. Drag your project folder to the deploy area
-  3. Your site is live instantly!
+This website is hosted on **GitHub Pages** - completely free!
 
-### 2. Vercel
-- **URL**: [vercel.com](https://vercel.com)
-- **Features**: Git integration, edge functions
-- **Steps**:
-  1. Sign up at vercel.com
-  2. Connect your GitHub repository
-  3. Deploy automatically
+- **Live Site**: [https://rstoof.github.io/boomverzorging/](https://rstoof.github.io/boomverzorging/)
+- **Custom Domain**: [http://boomverzorging.green](http://boomverzorging.green)
 
-### 3. GitHub Pages
-- **URL**: [pages.github.com](https://pages.github.com)
-- **Features**: Free with GitHub repository
-- **Steps**:
-  1. Push code to GitHub repository
-  2. Go to repository Settings > Pages
-  3. Select source branch (usually `main`)
-
-### 4. Surge.sh
-- **URL**: [surge.sh](https://surge.sh)
-- **Features**: Command line deployment
-- **Steps**:
-  ```bash
-  npm install -g surge
-  cd your-project-folder
-  surge
-  ```
+### GitHub Pages Setup
+1. **Push code to GitHub repository**
+2. **Go to repository Settings > Pages**
+3. **Select source branch**: `main` / `/ (root)`
+4. **Custom domain** (optional): Add `CNAME` file with your domain
+5. **DNS Configuration**: Point your domain to GitHub Pages IPs
 
 ## 📝 Customization
 
@@ -83,21 +61,13 @@ A modern, responsive static website converted from WordPress for free hosting.
 3. Add navigation link to all pages
 4. Update the active navigation in `js/main.js`
 
-### Contact Form Setup
-The contact form is currently for display only. To make it functional:
+### Contact Informatie
+De website bevat alle echte contactgegevens:
 
-**Option 1: Netlify Forms**
-```html
-<form data-netlify="true" method="POST">
-```
-
-**Option 2: Formspree**
-```html
-<form action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
-```
-
-**Option 3: EmailJS**
-Add EmailJS script and configure in JavaScript.
+- **Telefoon**: [+31 6 26018928](tel:+31626018928)
+- **E-mail**: [janstoof@live.nl](mailto:janstoof@live.nl)  
+- **Adres**: Hollandse Kade 16, 1391JD Abcoude
+- **Beschikbaarheid**: Maandag t/m zondag (weer permitting)
 
 ## 🔧 Development
 
