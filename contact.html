@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Contact Boomverzorging - Get a quote for tree care services">
-    <title>Contact - Boomverzorging</title>
+    <meta name="description" content="Contact Groene Boomverzorging - Offerte aanvragen voor boomverzorging">
+    <title>Contact - Groene Boomverzorging</title>
     <link rel="stylesheet" href="css/styles.css">
     <link rel="icon" type="image/x-icon" href="assets/favicon.ico">
 </head>
@@ -12,14 +12,14 @@
     <header class="header">
         <nav class="nav">
             <div class="nav-container">
-                <a href="index.html" class="nav-logo">Boomverzorging</a>
+                <a href="index.html" class="nav-logo">Groene Boomverzorging</a>
                 <button class="nav-toggle" id="nav-toggle">
                     <span class="nav-toggle-icon"></span>
                 </button>
                 <ul class="nav-menu" id="nav-menu">
                     <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
-                    <li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
-                    <li class="nav-item"><a href="blog.html" class="nav-link">Blog</a></li>
+                    <li class="nav-item"><a href="diensten.html" class="nav-link">Diensten</a></li>
+                    <li class="nav-item"><a href="about.html" class="nav-link">Over Ons</a></li>
                     <li class="nav-item"><a href="contact.html" class="nav-link active">Contact</a></li>
                 </ul>
             </div>
@@ -29,48 +29,71 @@
     <main class="main">
         <section class="hero" style="padding: 4rem 0;">
             <div class="container">
-                <h1 class="hero-title" style="font-size: 2.5rem;">Contact Us</h1>
-                <p class="hero-description">Get in touch with us</p>
+                <h1 class="hero-title" style="font-size: 2.5rem;">Contact Opnemen</h1>
+                <p class="hero-description">Neem contact met ons op voor al uw boomverzorgingsvragen</p>
             </div>
         </section>
 
         <section style="padding: 4rem 0;">
             <div class="container">
-                <div style="max-width: 600px; margin: 0 auto;">
-                    <form class="contact-form" style="background: #f8fafc; padding: 2rem; border-radius: 1rem;">
-                        <div style="margin-bottom: 1.5rem;">
-                            <label for="name" style="display: block; margin-bottom: 0.5rem; font-weight: 600;">Name</label>
-                            <input type="text" id="name" name="name" required 
-                                   style="width: 100%; padding: 0.75rem; border: 1px solid #d1d5db; border-radius: 0.5rem; font-size: 1rem;">
-                        </div>
-                        
-                        <div style="margin-bottom: 1.5rem;">
-                            <label for="email" style="display: block; margin-bottom: 0.5rem; font-weight: 600;">Email</label>
-                            <input type="email" id="email" name="email" required
-                                   style="width: 100%; padding: 0.75rem; border: 1px solid #d1d5db; border-radius: 0.5rem; font-size: 1rem;">
-                        </div>
-                        
-                        <div style="margin-bottom: 1.5rem;">
-                            <label for="message" style="display: block; margin-bottom: 0.5rem; font-weight: 600;">Message</label>
-                            <textarea id="message" name="message" rows="5" required
-                                      style="width: 100%; padding: 0.75rem; border: 1px solid #d1d5db; border-radius: 0.5rem; font-size: 1rem; resize: vertical;"></textarea>
-                        </div>
-                        
-                        <button type="submit" class="btn btn-primary" style="width: 100%;">
-                            Send Message
-                        </button>
-                    </form>
-                    
-                    <div style="margin-top: 3rem; text-align: center;">
-                        <p style="color: #64748b; margin-bottom: 1rem;">
-                            Note: This is a static site demo. For a working contact form, you'll need to integrate with a service like:
+                <div style="max-width: 800px; margin: 0 auto;">
+                    <div style="margin-bottom: 3rem;">
+                        <p style="text-align: center; font-size: 1.125rem; color: #64748b; margin-bottom: 2rem;">
+                            Heeft u vragen of opmerkingen over onze boomverzorgingsdiensten? Wilt u meer informatie 
+                            over onze milieuvriendelijke aanpak en geavanceerde apparatuur? Neem dan gerust contact met ons op:
                         </p>
-                        <ul style="list-style: none; padding: 0; color: #64748b;">
-                            <li>• Netlify Forms (built-in form handling)</li>
-                            <li>• Formspree (external form service)</li>
-                            <li>• EmailJS (client-side email sending)</li>
-                            <li>• Getform (form backend service)</li>
-                        </ul>
+                    </div>
+
+                    <div class="contact-info" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 2rem; margin-bottom: 3rem;">
+                        <div class="contact-card" style="background: #fff; padding: 2rem; border-radius: 1rem; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05); text-align: center;">
+                            <div style="font-size: 2.5rem; margin-bottom: 1rem; color: #2563eb;">📞</div>
+                            <h3 style="color: #1e293b; margin-bottom: 1rem;">Telefoon</h3>
+                            <p style="color: #64748b; font-size: 1.125rem; font-weight: 600;">
+                                <a href="tel:+31626018928" style="color: #2563eb; text-decoration: none;">+31 6 26018928</a>
+                            </p>
+                        </div>
+
+                        <div class="contact-card" style="background: #fff; padding: 2rem; border-radius: 1rem; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05); text-align: center;">
+                            <div style="font-size: 2.5rem; margin-bottom: 1rem; color: #2563eb;">✉️</div>
+                            <h3 style="color: #1e293b; margin-bottom: 1rem;">E-mail</h3>
+                            <p style="color: #64748b; font-size: 1.125rem; font-weight: 600;">
+                                <a href="mailto:janstoof@live.nl" style="color: #2563eb; text-decoration: none;">janstoof@live.nl</a>
+                            </p>
+                        </div>
+
+                        <div class="contact-card" style="background: #fff; padding: 2rem; border-radius: 1rem; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05); text-align: center;">
+                            <div style="font-size: 2.5rem; margin-bottom: 1rem; color: #2563eb;">📍</div>
+                            <h3 style="color: #1e293b; margin-bottom: 1rem;">Adres</h3>
+                            <p style="color: #64748b; font-size: 1.125rem;">
+                                Hollandse Kade 16<br>
+                                1391JD Abcoude
+                            </p>
+                        </div>
+                    </div>
+
+                    <div style="background: #f8fafc; padding: 2.5rem; border-radius: 1rem; text-align: center;">
+                        <h3 style="color: #1e293b; margin-bottom: 1.5rem;">Beschikbaarheid</h3>
+                        <p style="color: #64748b; line-height: 1.7; margin-bottom: 1.5rem;">
+                            We zijn beschikbaar van <strong>maandag tot en met zondag</strong>, mits het niet regent. 
+                            We nemen zo snel mogelijk contact met u op om uw vragen te beantwoorden en u te voorzien 
+                            van alle informatie die u nodig heeft.
+                        </p>
+                        <p style="color: #64748b; line-height: 1.7; margin-bottom: 2rem;">
+                            Als u een afspraak wilt maken voor een consultatie of een van onze boomverzorgingsdiensten 
+                            wilt boeken, kunt u ons ook bellen of mailen om een afspraak te plannen. Onze deskundige 
+                            en ervaren boomverzorgers staan klaar om u te helpen bij het behouden van gezonde en mooie 
+                            bomen op uw eigendom.
+                        </p>
+                        <div class="hero-buttons">
+                            <a href="tel:+31626018928" class="btn btn-primary">Bel Nu</a>
+                            <a href="mailto:janstoof@live.nl" class="btn btn-secondary">E-mail Sturen</a>
+                        </div>
+                    </div>
+
+                    <div style="margin-top: 3rem; text-align: center;">
+                        <p style="color: #64748b; font-style: italic;">
+                            Bedankt voor uw interesse in ons boomverzorgingsbedrijf en we hopen snel van u te horen!
+                        </p>
                     </div>
                 </div>
             </div>
@@ -80,7 +103,7 @@
     <footer class="footer">
         <div class="container">
             <div class="footer-content">
-                <p>&copy; 2025 Boomverzorging. All rights reserved.</p>
+                <p>&copy; 2025 Groene Boomverzorging. Alle rechten voorbehouden.</p>
                 <div class="footer-links">
                     <a href="privacy.html">Privacy Policy</a>
                     <a href="terms.html">Terms of Service</a>
