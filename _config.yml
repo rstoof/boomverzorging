@@ -21,7 +21,7 @@ plugins:
 # Site settings (optional)
 title: "Boomverzorging - Professional Tree Care"
 description: "Professional tree care and arboriculture services"
-url: "http://boomverzorging.green"
+url: "https://boomverzorging.green"
 baseurl: ""
 
 # SEO settings
@@ -32,4 +32,4 @@ author:
 social:
   name: "Boomverzorging"
   links:
-    - http://boomverzorging.green
+    - https://boomverzorging.green
